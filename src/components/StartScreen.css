@@ -1,8 +1,30 @@
-.Start h1 {
-  font-size: 3.5em;
+.Start img {
+  width: 18rem;
 }
 
 .Start p {
   margin-bottom: 2em;
   color: #ecfa00;
+}
+
+button {
+  width: 10rem;
+  height: 2.5rem;
+  animation-name: pulsar;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    tansforme: scale(1.5);
+  }
 }
